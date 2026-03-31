@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #081b29;
+  color: white;
+}
+
+/* NAV */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.glow-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 40%;
+  padding: 10px;
+  background: radial-gradient(#00f7ff, transparent);
+  box-shadow: 0 0 40px #00f7ff;
+}
+
+.glow-circle img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40%;
+  padding: 10px;
+  background: white;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  padding: 80px;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.bar {
+  margin: 10px 0;
+}
+
+.progress {
+  height: 8px;
+  background: #00f7ff;
+}
+
+.html { width: 90%; }
+.css { width: 80%; }
+.js { width: 65%; }
+.py { width: 50%; }
+.react { width: 75%; }
+
+/* CIRCLES */
+.circle {
+  border: 4px solid #00f7ff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* CONTACT */
+.contact {
+  display: flex;
+  padding: 80px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #00f7ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
